@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* layout */
+.inner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex__column {
+    flex-direction: column;
+}
+/* common */
+:root {
+    /* color */
+    --white-color: #fff;
+    --black-color: #000;
+    --light-gray-color: #ddd;
+    --gray-color: #666;
+    --dark-gray-color: #363636;
+    --dark-bg-color: #141414;
+    --gray-bg-color: #f7f7f7;
+    --primary-color: #1428a0;
+    /* typography */
+    
+    font-size: 62.5%;
+    --h1-title-font: 5.2rem;
+    --h2-title-font: 4.6rem;
+    --h3-title-font: 3.7rem;
+    --h4-title-font: 2.8rem;
+    --medium-font: 2.4rem;
+    --regular-font: 1.6rem;
+    --small-font: 1.3rem;
+}
+body {
+    font-size: var(--regular-font);
+}
+/* common btn */
+.common__btn {  
+    padding: 1.1rem 3rem 1.1rem 3rem;
+    border-radius: 468.5px;
+    font-size: var(--small-font);
+    font-weight: bold;
+}

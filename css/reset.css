@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+h1 {
+    font-size: var(--h1-title-font);
+}
+h2 {
+    font-size: var(--h2-title-font);
+}
+h3 {
+    font-size: var(--h3-title-font);
+}
+h4 {
+    font-size: var(--h4-title-font);
+}
+button {
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
