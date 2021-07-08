@@ -320,7 +320,7 @@
 
 /* section#project */
 /* gird */
-#project h1 {
+#project h5 {
     display: none;
 }
 #project .l_wrapper {
@@ -887,12 +887,10 @@ svg {
 .footer__sns h5 {
     line-height: 70px;
     margin-right: 30px;
+    font-size: var(--small-font);
 }
 .footer__sns__item {
     margin-left: 10px;
-}
-.footer__sns__item:nth-of-type(1) {
-    /* margin-left: 30px; */
 }
 .footer__sns__item img {
     padding: 5px 0;

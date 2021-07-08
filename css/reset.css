@@ -28,6 +28,9 @@ h3 {
 h4 {
     font-size: var(--h4-title-font);
 }
+h5 {
+    font-size: var(--h1-title-font);
+}
 button {
     outline: none;
     border: none;
